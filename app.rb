@@ -25,8 +25,17 @@ class Rps < Sinatra::Base
     erb :play
   end
 
-  post "/choice" do
+  post "/player_1_action" do
     session[:player_1_action] = @game_1.player_1_action(params[:player_1_action])
+    # session[:player_2_action] = @game_1.player_2_action(params[:player_2_action])
+    redirect "/play2"
+  end
+
+  get "/play2" do
+    erb :play2
+  end
+
+  post "/choice" do
     session[:player_2_action] = @game_1.player_2_action(params[:player_2_action])
     redirect "/result"
   end
