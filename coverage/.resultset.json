@@ -1,0 +1,33 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/elly/Desktop/Projects/RPS_Challenge/spec/player_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/elly/Desktop/Projects/RPS_Challenge/lib/player.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1542501134
+  }
+}

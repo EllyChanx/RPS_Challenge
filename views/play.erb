@@ -1,1 +1,24 @@
-<p>  </p>
+<h2>Game Start</h2>
+
+<form action="/choice" method="post">
+
+  <p> <%=@player_1.name%> action: 
+    <select name="player_1_action">
+       <option value="Paper">Paper</option>
+       <option value="Scissors">Scissors</option>
+       <option value="Rock">Rock</option>
+    </select>
+  </p>
+
+  <p> <%=@player_2.name%> action: 
+    <select name="player_2_action">
+       <option value="Paper">Paper</option>
+       <option value="Scissors">Scissors</option>
+       <option value="Rock">Rock</option>
+    </select>
+  </p>
+
+  <input type="submit" name="submit" value="Result!">
+
+
+</form>
