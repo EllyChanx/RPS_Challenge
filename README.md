@@ -1,4 +1,4 @@
-#Rock, Paper, Scissors game
+# Rock, Paper, Scissors game
 
 https://github.com/makersacademy/rps-challenge/blob/master/README.md
 
