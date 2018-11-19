@@ -27,7 +27,6 @@ class Rps < Sinatra::Base
 
   post "/player_1_action" do
     session[:player_1_action] = @game_1.player_1_action(params[:player_1_action])
-    # session[:player_2_action] = @game_1.player_2_action(params[:player_2_action])
     redirect "/play2"
   end
 
@@ -41,8 +40,8 @@ class Rps < Sinatra::Base
   end
 
   get "/result" do
-    @xx = session[:player_1_action]
-    @yy = session[:player_2_action]
+    @player_1_action = session[:player_1_action]
+    @player_2_action = session[:player_2_action]
     erb :result
   end
 

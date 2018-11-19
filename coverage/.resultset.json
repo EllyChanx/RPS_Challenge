@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/Elly/Desktop/Project/RPS_Challenge/spec/features/game_spec.rb": [
+      "/Users/elly/Desktop/Projects/RPS_Challenge/spec/features/game_spec.rb": [
         null,
         null,
         null,
@@ -36,7 +36,7 @@
         null,
         null
       ],
-      "C:/Users/Elly/Desktop/Project/RPS_Challenge/spec/features/name_spec.rb": [
+      "/Users/elly/Desktop/Projects/RPS_Challenge/spec/features/name_spec.rb": [
         null,
         null,
         null,
@@ -62,7 +62,7 @@
         null,
         null
       ],
-      "C:/Users/Elly/Desktop/Project/RPS_Challenge/spec/game_1_spec.rb": [
+      "/Users/elly/Desktop/Projects/RPS_Challenge/spec/game_1_spec.rb": [
         1,
         null,
         1,
@@ -102,7 +102,7 @@
         null,
         null
       ],
-      "C:/Users/Elly/Desktop/Project/RPS_Challenge/spec/player_spec.rb": [
+      "/Users/elly/Desktop/Projects/RPS_Challenge/spec/player_spec.rb": [
         1,
         null,
         1,
@@ -116,6 +116,6 @@
         null
       ]
     },
-    "timestamp": 1542592107
+    "timestamp": 1542630218
   }
 }
