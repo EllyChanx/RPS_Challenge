@@ -1,6 +1,5 @@
 class Game_1
 
-
   def initialize(player1, player2)
     @players = [player1, player2]
     # @player_1_action = player_1_action
@@ -34,8 +33,12 @@ class Game_1
     choice
   end
 
+  def check_tie
+    return true if (@result[0] == @result[1])
+    false
+  end
+
   def result
-    return "Tie!" if (@result[0] == @result[1])
     return player_1 if 
       (@result[0] == "Paper" && @result[1] == "Rock") ||
       (@result[0] == "Scissors" && @result[1] == "Paper") ||
